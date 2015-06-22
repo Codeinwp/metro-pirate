@@ -5,7 +5,7 @@
  Author:       Themeisle
  Author URI:   https://themeisle.com
  Template:     metro-creativex
- Version:      1.0.2
+ Version:      1.0.3
  License:      GNU General Public License version 2
  License URI:  license.txt
  Text Domain:  metro-pirate
@@ -300,3 +300,25 @@ footer {
     font-size: 1.4rem;
 }   
 
+/* ================================
+	SIDEBAR
+================================ */
+.left-sidebar, .left-sidebar a, .left-sidebar .widget_search input[type="text"], .left-sidebar p, .left-sidebar select {
+	color: #6C6C6C !important;
+}
+.left-sidebar select {
+	background: none !important;
+}
+.left-sidebar li {
+	border-top: none !important;
+}
+.bg-code {
+	background: #2991d6 none repeat scroll 0% 0% !important;
+}
+.left-sidebar .widget-title {
+	font-weight: bold !important;
+	color: #2991d6 !important;
+}
+.left-sidebar a:hover {
+	color:#2991d6 !important;
+}
